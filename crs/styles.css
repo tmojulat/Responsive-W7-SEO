@@ -7,6 +7,9 @@
 
 body {
   font-family: var(--default-font-family);
+margin-top: 30px;
+    line-height: 1.5;
+
 }
 
 h1,
@@ -18,6 +21,7 @@ h6 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
+  text-align: center;
 }
 
 h1 {
@@ -27,6 +31,10 @@ h1 {
 
 h2 {
   font-size: 64px;
+}
+
+h4 {
+    font-size: 26px;
 }
 
 p {
@@ -53,6 +61,10 @@ p {
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
+}
+
+.container {
+    margin: 10px 10px;
 }
 
 .content-container {
@@ -143,6 +155,24 @@ nav li.active a {
     line-height: 56px;
   }
 
+  @media (min-width: 1400px) {
+    .container {
+        max-width: 1320px}
+    }
+  }
+
+  @media (min-width: 992px) {
+    .col-lg-6 {
+        flex: 0 0 auto;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .about-section {
+        text-align: center;
+    }
+  }
+
   h2 {
     font-size: 44px;
   }
@@ -160,4 +190,104 @@ nav li.active a {
     padding: 0;
     text-align: center;
   }
+
+.about.section {
+    padding: 160px 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-section-content {
+    margin: 30px;
+}
+
+.about-section h1 {
+font-size: 64px;
+line-height: 80px;
+line-height: 1.2;
+}
+
+.about-section h2 {
+font-size: 18px;
+font-family: var(--default-font-family);
+font-weight: bolder;
+line-height: 1.2;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+    margin-top: 30px;
+}
+
+.mb-5 {
+    margin-bottom: 3rem!important;
+}
+
+p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+footer {
+  margin: 60px 0;
+  display: block;
+  padding-top: 50px!important;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+.bi {
+    font-weight: 400;
+}
+
+.justify-content-between {
+  justify-content: space-between!important;
+}
+.d-flex {
+  display: flex! important;
 }

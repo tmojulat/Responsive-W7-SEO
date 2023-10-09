@@ -29,6 +29,12 @@ h1 {
   line-height: 1.5;
 }
 
+.content h1 {
+font-size: 76px;
+line-height: 15px;
+margin-top: 70px;
+}
+
 h2 {
   font-size: 64px;
 }
@@ -69,11 +75,6 @@ p {
 
 .content-container {
   padding: 160px 20px;
-}
-
-.content h1 {
-  font-size: 64px;
-  line-height: 80px;
 }
 
 .content h2 {
@@ -290,4 +291,9 @@ footer .social-links a:hover {
 }
 .d-flex {
   display: flex! important;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
 }

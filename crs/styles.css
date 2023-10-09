@@ -30,9 +30,9 @@ h1 {
 }
 
 .content h1 {
-font-size: 76px;
-line-height: 15px;
-margin-top: 70px;
+font-size: 50px;
+line-height: 50px;
+margin-top: 60px;
 }
 
 h2 {
@@ -165,6 +165,7 @@ nav li.active a {
   @media (min-width: 992px) {
     .col-lg-6 {
         flex: 0 0 auto;
+    
     }
   }
 
@@ -174,9 +175,12 @@ nav li.active a {
     }
   }
 
+  
+
   .text-center {
-font-size: 60px;
+font-size: 50px;
 font-family: var(--heading-font-family);
+line-height: 1.5;
   }
 
   h2 {
